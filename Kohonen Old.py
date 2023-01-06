@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import numpy as np 
     
 alpha=0.6 #learning rate
@@ -23,8 +17,6 @@ def Distance(x,y):  #Calculates the distance between the arrays input in argumen
         sum=sum+np.square(y[i]-x[i])
     return(sum)
 
-
-# In[ ]:
 
 
 def Learning_Algorithm(x1,x2,x3,x4,y1,y2):
@@ -51,8 +43,6 @@ def Learning_Algorithm(x1,x2,x3,x4,y1,y2):
     print(y2)                      #Final Y2 weights
 
 
-# In[ ]:
-
 
 epoch=1000
  
@@ -62,10 +52,3 @@ for number in range(int(epoch)):
         alpha=alpha*0.5
     else:
         break  
-
-
-# In[ ]:
-
-
-
-

@@ -1,4 +1,3 @@
-
 import numpy as np 
     
 alpha=0.6 #learning rate
